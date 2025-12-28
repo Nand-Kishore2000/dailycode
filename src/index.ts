@@ -1,29 +1,36 @@
 
 
-function delayFn1(fn: ()=> void){
 
-    setTimeout(()=> {
-        fn()
-    },1000);
 
-}
 
-delayFn1(function(){ 
-    console.log("Hello world")
-})
 
-function delayFn(fn: ()=> number){
 
-    setTimeout(()=> {
-        fn()
-    },1000);
 
-}
 
-delayFn(function(){ 
-    console.log("Hello world")
-    return 5;
-})
+
+
+// function delayFn1(fn: ()=> void){
+//     setTimeout(()=> {
+//         fn()
+//     },1000);
+// }
+
+// delayFn1(function(){ 
+//     console.log("Hello world")
+// })
+
+// function delayFn(fn: ()=> number){
+
+//     setTimeout(()=> {
+//         fn()
+//     },1000);
+
+// }
+
+// delayFn(function(){ 
+//     console.log("Hello world")
+//     return 5;
+// })
 
 
 
